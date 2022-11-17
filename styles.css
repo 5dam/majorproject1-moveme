@@ -1,7 +1,18 @@
-body{
-    background-color: #222;
+:root{
+    --background:#222;
+    --purpleBtn:#e810a7;
+    --redBtn:#fc1427;
 }
 
+.section{
+    background-color: var(--background);
+    height:55rem;
+}
+
+.signup{
+    border:none;
+    background-image: linear-gradient(to left, var(--redBtn), var(--purpleBtn));
+}
 
 
 @media only screen and (max-width: 990px) {
