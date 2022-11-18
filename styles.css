@@ -1,7 +1,7 @@
 :root{
     --background:#222;
-    --purpleBtn:#e810a7;
-    --redBtn:#fc1427;
+    --textshadowSlogan:#008000;
+    
 }
 body{
     background-color: var(--background);
@@ -12,9 +12,21 @@ body{
     font-weight:700;
 }
     /* nav menu fonts */
-.signup{
-    background-image: linear-gradient(to left, var(--redBtn), var(--purpleBtn));
+
+    /* section 1 fonts */
+.slogan{
+    font-family: 'Brawler', serif;
+    font-weight:900;
+    font-size:4rem;
+    text-shadow: 2px 2px 1px var(--textshadowSlogan);
 }
+.slogan1{
+    font-style:italic;
+    text-shadow: 2px 2px 1px black;
+    font-family: 'Montserrat', sans-serif;
+}
+    /* end section 1 fonts */
+
     /* modal center text line */
 .textincenter {
     width: 100%; 
@@ -30,5 +42,7 @@ body{
     /* end modal center text line */
 
 @media only screen and (max-width: 990px) {
-   
+   .sectionpic{
+    display:none;
+   }
   }
