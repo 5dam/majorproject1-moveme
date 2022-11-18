@@ -6,11 +6,12 @@
 body{
     background-color: var(--background);
 }
-nav{
-    font-family: 'Montserrat', sans-serif;
+    /* nav menu fonts */
+.nav-link{
+    font-family: 'Poppins', sans-serif;
     font-weight:700;
 }
-
+    /* nav menu fonts */
 .signup{
     background-image: linear-gradient(to left, var(--redBtn), var(--purpleBtn));
 }
