@@ -4,7 +4,7 @@
     
 }
 body{
-    background-color: var(--background);
+    background-color:var(--background);
 }
     /* nav menu fonts */
 .nav-link{
@@ -41,8 +41,19 @@ body{
  }
     /* end modal center text line */
 
+    /* responsive */
 @media only screen and (max-width: 990px) {
    .sectionpic{
-    display:none;
+        display:none;
    }
   }
+
+@media only screen and (max-width:1399px){
+    .sectionpic{
+       margin-left:-200px;
+    }
+}
+@media only screen and (max-width:1199px){
+   
+}
+    /* end of responsive */
