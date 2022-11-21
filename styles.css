@@ -1,6 +1,7 @@
 :root{
     --background:#222;
     --textshadowSlogan:#008000;
+    --titleColor:#a8161d;
     
 }
 body{
@@ -46,6 +47,23 @@ body{
 .card-text{
     font-style:italic;
 }
+
+.movemetitle{
+    color:var(--titleColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* responsive */
 @media only screen and (max-width: 990px) {
    .sectionpic{
