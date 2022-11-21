@@ -40,7 +40,12 @@ body{
      padding:0 10px; 
  }
     /* end modal center text line */
-
+.card-title{
+    text-shadow:2px 2px var(--textshadowSlogan);
+}
+.card-text{
+    font-style:italic;
+}
     /* responsive */
 @media only screen and (max-width: 990px) {
    .sectionpic{
@@ -54,7 +59,9 @@ body{
     }
   
 }
-@media only screen and (max-width:1199px){
-   
+@media only screen and (max-width:767px){
+   .section1{
+    
+   }
 }
     /* end of responsive */
