@@ -1,3 +1,4 @@
+/* main page */
 :root{
     --background:#222;
     --textshadowSlogan:#008000;
@@ -51,16 +52,33 @@ body{
 .movemetitle{
     color:var(--titleColor);
 }
+.section3text, .section2text{
+    text-align:justify;
+}
+
+
+/* end main page */
 
 
 
 
 
 
+/* about us html */
 
-
-
-
+.aboutusbg, .bg-image{
+    font-family: 'Brawler', serif;
+    background-image:url('/assets/aboutus/containership.jpg');
+    background-size:100% 100%;
+}
+.section1text{
+    text-align:justify;
+}
+.companyprofile{
+    font-family: 'Brawler', serif;
+    font-weight:bold;
+}
+/* end about us */
 
 
 
