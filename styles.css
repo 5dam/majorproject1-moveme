@@ -44,7 +44,7 @@ body{
  }
     /* end modal center text line */
 .card-title{
-    text-shadow:2px 2px var(--textshadowSlogan);
+    text-shadow:2px 2px var(--titleColor);
 }
 .card-text{
     font-style:italic;
