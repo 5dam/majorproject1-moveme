@@ -3,7 +3,6 @@
     --background:#222;
     --textshadowSlogan:#008000;
     --titleColor:#a8161d;
-    
 }
 body{
     background-color:var(--background);
@@ -42,9 +41,7 @@ body{
      padding:0 10px; 
  }
     /* end modal center text line */
-.card-title{
-    /* text-shadow:2px 2px var(--titleColor); */
-}
+
 .card-text{
     font-style:italic;
 }
