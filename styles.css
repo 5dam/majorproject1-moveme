@@ -19,7 +19,6 @@ body{
 .slogan{
     font-family: 'Brawler', serif;
     font-weight:900;
-    font-size:4rem;
     text-shadow: 2px 2px 1px var(--titleColor);
 }
 .slogan1{
@@ -74,6 +73,7 @@ body{
 }
 .section1text{
     text-align:justify;
+    font-size: 14px;
 }
 .companyprofile{
     font-family: 'Brawler', serif;
