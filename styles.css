@@ -65,17 +65,14 @@ body{
 
 .aboutusbg, .bg-image{
     font-family: 'Brawler', serif;
-    background-image:url('/assets/aboutus/containership.jpg');
+    background-image:url('https://wallpaperaccess.com/full/2757704.jpg');
     background-size:100% 100%;
 }
 .section1text{
     text-align:justify;
-    font-size: 14px;
+    font-size: 16px;
 }
-.companyprofile{
-    font-family: 'Brawler', serif;
-    font-weight:bold;
-}
+
 /* end about us */
 
 
